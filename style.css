@@ -1,0 +1,115 @@
+body{
+    background-image: linear-gradient(rgba(240, 248, 255, 0.546), rgba(95, 158, 160, 0.561)),
+    url("images/fondcss.png");
+}
+
+html, body{
+    scroll-behavior: smooth;
+}
+
+p{
+
+    font-size: xx-large;
+}
+
+.title{
+    margin-bottom: 60px;
+    font-variant:small-caps;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    font-size: x-large;
+}
+
+.title:hover{
+    color: aliceblue;
+
+}
+
+
+.header{
+
+    background-color:cadetblue;
+}
+
+* {
+    padding: 0;
+    color:black;
+    font-family: 'Russo One', sans-serif;
+    margin: 0;
+    box-sizing:border-box;
+}
+
+.PC{
+    text-align: left;
+    font-size: 10px;
+    
+}
+
+
+
+
+
+
+.fenetres{
+    font-size: large;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: flex-start;
+    gap: 150px;
+    list-style:none;
+}
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    gap: 100px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: column;
+    text-align: center;
+    flex-direction: row;
+}
+
+
+.img{
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+
+
+.présentationtxt{
+    font-variant: small-caps;
+    width: 50%;
+}
+
+.descriptiontxt{
+    width: 50%;
+    font-variant: small-caps;
+    
+}
+
+.caractéristiquestxt{
+    width: 50%;
+    font-variant: small-caps;
+
+}
+
+.footer{
+    background-color: cadetblue;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    gap: 30px;
+    justify-content: space-evenly;
+    height: 100px;
+    
+}
+
+.LinkedIn:hover{
+    color: aliceblue;
+}
